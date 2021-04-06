@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,20 @@
 		CE137129261C8A8100584738 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE137127261C8A8100584738 /* Main.storyboard */; };
 		CE13712B261C8A8200584738 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE13712A261C8A8200584738 /* Assets.xcassets */; };
 		CE13712E261C8A8200584738 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE13712C261C8A8200584738 /* LaunchScreen.storyboard */; };
+		CE137138261C8DF500584738 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = CE137137261C8DF500584738 /* Alamofire */; };
+		CE13713C261C8E1C00584738 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = CE13713B261C8E1C00584738 /* SwiftyJSON */; };
+		CE13714A261C8E4D00584738 /* Alegreya-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE13713F261C8E4D00584738 /* Alegreya-Bold.ttf */; };
+		CE13714B261C8E4D00584738 /* Alegreya-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE137140261C8E4D00584738 /* Alegreya-ExtraBold.ttf */; };
+		CE13714C261C8E4D00584738 /* Alegreya-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE137141261C8E4D00584738 /* Alegreya-Black.ttf */; };
+		CE13714D261C8E4D00584738 /* Alegreya-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE137142261C8E4D00584738 /* Alegreya-Italic.ttf */; };
+		CE13714E261C8E4D00584738 /* Alegreya-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE137143261C8E4D00584738 /* Alegreya-BoldItalic.ttf */; };
+		CE13714F261C8E4D00584738 /* Alegreya-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE137144261C8E4D00584738 /* Alegreya-Medium.ttf */; };
+		CE137150261C8E4D00584738 /* Alegreya-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE137145261C8E4D00584738 /* Alegreya-Regular.ttf */; };
+		CE137151261C8E4D00584738 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE137146261C8E4D00584738 /* OFL.txt */; };
+		CE137152261C8E4D00584738 /* Alegreya-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE137147261C8E4D00584738 /* Alegreya-BlackItalic.ttf */; };
+		CE137153261C8E4D00584738 /* Alegreya-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE137148261C8E4D00584738 /* Alegreya-MediumItalic.ttf */; };
+		CE137154261C8E4D00584738 /* Alegreya-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE137149261C8E4D00584738 /* Alegreya-ExtraBoldItalic.ttf */; };
+		CE137157261C953400584738 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE137156261C953400584738 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +38,18 @@
 		CE13712A261C8A8200584738 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE13712D261C8A8200584738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE13712F261C8A8200584738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE13713F261C8E4D00584738 /* Alegreya-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Alegreya-Bold.ttf"; path = "Alegreya/Alegreya-Bold.ttf"; sourceTree = SOURCE_ROOT; };
+		CE137140261C8E4D00584738 /* Alegreya-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Alegreya-ExtraBold.ttf"; path = "Alegreya/Alegreya-ExtraBold.ttf"; sourceTree = SOURCE_ROOT; };
+		CE137141261C8E4D00584738 /* Alegreya-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Alegreya-Black.ttf"; path = "Alegreya/Alegreya-Black.ttf"; sourceTree = SOURCE_ROOT; };
+		CE137142261C8E4D00584738 /* Alegreya-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Alegreya-Italic.ttf"; path = "Alegreya/Alegreya-Italic.ttf"; sourceTree = SOURCE_ROOT; };
+		CE137143261C8E4D00584738 /* Alegreya-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Alegreya-BoldItalic.ttf"; path = "Alegreya/Alegreya-BoldItalic.ttf"; sourceTree = SOURCE_ROOT; };
+		CE137144261C8E4D00584738 /* Alegreya-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Alegreya-Medium.ttf"; path = "Alegreya/Alegreya-Medium.ttf"; sourceTree = SOURCE_ROOT; };
+		CE137145261C8E4D00584738 /* Alegreya-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Alegreya-Regular.ttf"; path = "Alegreya/Alegreya-Regular.ttf"; sourceTree = SOURCE_ROOT; };
+		CE137146261C8E4D00584738 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = OFL.txt; path = Alegreya/OFL.txt; sourceTree = SOURCE_ROOT; };
+		CE137147261C8E4D00584738 /* Alegreya-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Alegreya-BlackItalic.ttf"; path = "Alegreya/Alegreya-BlackItalic.ttf"; sourceTree = SOURCE_ROOT; };
+		CE137148261C8E4D00584738 /* Alegreya-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Alegreya-MediumItalic.ttf"; path = "Alegreya/Alegreya-MediumItalic.ttf"; sourceTree = SOURCE_ROOT; };
+		CE137149261C8E4D00584738 /* Alegreya-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Alegreya-ExtraBoldItalic.ttf"; path = "Alegreya/Alegreya-ExtraBoldItalic.ttf"; sourceTree = SOURCE_ROOT; };
+		CE137156261C953400584738 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE13713C261C8E1C00584738 /* SwiftyJSON in Frameworks */,
+				CE137138261C8DF500584738 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +68,7 @@
 		CE137115261C8A8100584738 = {
 			isa = PBXGroup;
 			children = (
+				CE13713E261C8E2B00584738 /* Fonts */,
 				CE137120261C8A8100584738 /* pan_Meditaion */,
 				CE13711F261C8A8100584738 /* Products */,
 			);
@@ -60,11 +89,30 @@
 				CE137123261C8A8100584738 /* SceneDelegate.swift */,
 				CE137125261C8A8100584738 /* ViewController.swift */,
 				CE137127261C8A8100584738 /* Main.storyboard */,
+				CE137156261C953400584738 /* LoginViewController.swift */,
 				CE13712A261C8A8200584738 /* Assets.xcassets */,
 				CE13712C261C8A8200584738 /* LaunchScreen.storyboard */,
 				CE13712F261C8A8200584738 /* Info.plist */,
 			);
 			path = pan_Meditaion;
+			sourceTree = "<group>";
+		};
+		CE13713E261C8E2B00584738 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CE137141261C8E4D00584738 /* Alegreya-Black.ttf */,
+				CE137147261C8E4D00584738 /* Alegreya-BlackItalic.ttf */,
+				CE13713F261C8E4D00584738 /* Alegreya-Bold.ttf */,
+				CE137143261C8E4D00584738 /* Alegreya-BoldItalic.ttf */,
+				CE137140261C8E4D00584738 /* Alegreya-ExtraBold.ttf */,
+				CE137149261C8E4D00584738 /* Alegreya-ExtraBoldItalic.ttf */,
+				CE137142261C8E4D00584738 /* Alegreya-Italic.ttf */,
+				CE137144261C8E4D00584738 /* Alegreya-Medium.ttf */,
+				CE137148261C8E4D00584738 /* Alegreya-MediumItalic.ttf */,
+				CE137145261C8E4D00584738 /* Alegreya-Regular.ttf */,
+				CE137146261C8E4D00584738 /* OFL.txt */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +131,10 @@
 			dependencies = (
 			);
 			name = pan_Meditaion;
+			packageProductDependencies = (
+				CE137137261C8DF500584738 /* Alamofire */,
+				CE13713B261C8E1C00584738 /* SwiftyJSON */,
+			);
 			productName = pan_Meditaion;
 			productReference = CE13711E261C8A8100584738 /* pan_Meditaion.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +162,10 @@
 				Base,
 			);
 			mainGroup = CE137115261C8A8100584738;
+			packageReferences = (
+				CE137136261C8DF500584738 /* XCRemoteSwiftPackageReference "alamofire" */,
+				CE13713A261C8E1C00584738 /* XCRemoteSwiftPackageReference "swiftyJSON" */,
+			);
 			productRefGroup = CE13711F261C8A8100584738 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -124,8 +180,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE13714F261C8E4D00584738 /* Alegreya-Medium.ttf in Resources */,
+				CE137151261C8E4D00584738 /* OFL.txt in Resources */,
 				CE13712E261C8A8200584738 /* LaunchScreen.storyboard in Resources */,
+				CE13714E261C8E4D00584738 /* Alegreya-BoldItalic.ttf in Resources */,
+				CE137150261C8E4D00584738 /* Alegreya-Regular.ttf in Resources */,
+				CE13714A261C8E4D00584738 /* Alegreya-Bold.ttf in Resources */,
+				CE13714D261C8E4D00584738 /* Alegreya-Italic.ttf in Resources */,
+				CE13714B261C8E4D00584738 /* Alegreya-ExtraBold.ttf in Resources */,
 				CE13712B261C8A8200584738 /* Assets.xcassets in Resources */,
+				CE13714C261C8E4D00584738 /* Alegreya-Black.ttf in Resources */,
+				CE137154261C8E4D00584738 /* Alegreya-ExtraBoldItalic.ttf in Resources */,
+				CE137153261C8E4D00584738 /* Alegreya-MediumItalic.ttf in Resources */,
+				CE137152261C8E4D00584738 /* Alegreya-BlackItalic.ttf in Resources */,
 				CE137129261C8A8100584738 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE137157261C953400584738 /* LoginViewController.swift in Sources */,
 				CE137126261C8A8100584738 /* ViewController.swift in Sources */,
 				CE137122261C8A8100584738 /* AppDelegate.swift in Sources */,
 				CE137124261C8A8100584738 /* SceneDelegate.swift in Sources */,
@@ -339,6 +407,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE137136261C8DF500584738 /* XCRemoteSwiftPackageReference "alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "http://github.com/alamofire/alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.2;
+			};
+		};
+		CE13713A261C8E1C00584738 /* XCRemoteSwiftPackageReference "swiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "http://github.com/swiftyJSON/swiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE137137261C8DF500584738 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE137136261C8DF500584738 /* XCRemoteSwiftPackageReference "alamofire" */;
+			productName = Alamofire;
+		};
+		CE13713B261C8E1C00584738 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE13713A261C8E1C00584738 /* XCRemoteSwiftPackageReference "swiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE137116261C8A8100584738 /* Project object */;
 }
